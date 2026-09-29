@@ -1,0 +1,17 @@
+{
+  "name": "intuito-studio",
+  "owner": {
+    "name": "Intuito Studio"
+  },
+  "metadata": {
+    "description": "Claude Code plugins from Intuito Studio"
+  },
+  "plugins": [
+    {
+      "name": "principles-research",
+      "source": "./",
+      "description": "Cited principles briefs on any topic: principles-scout agent plus the principles-atlas multi-agent workflow with a per-claim citation audit.",
+      "category": "research"
+    }
+  ]
+}

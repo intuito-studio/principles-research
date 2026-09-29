@@ -1,0 +1,9 @@
+{
+  "name": "principles-research",
+  "version": "1.0.0",
+  "description": "Evidence-grounded principles research: a principles-scout agent for small topics and the principles-atlas workflow for big multi-facet ones. Every claim is cited to a page actually fetched, and the workflow re-checks each citation before writing the brief to ~/.claude/research/.",
+  "author": {
+    "name": "Intuito Studio"
+  },
+  "keywords": ["research", "principles", "best-practices", "citations", "workflow"]
+}
