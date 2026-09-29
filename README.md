@@ -30,8 +30,12 @@ claude plugin install principles-research@intuito-studio
 
 Start a new session afterwards.
 
-If the repo is private, you need read access to it on GitHub, and git on your
-machine must be able to clone it (SSH key or credential helper).
+If adding the marketplace fails with a git or SSH error (no GitHub SSH key on
+your machine), add it by its HTTPS URL instead:
+
+```sh
+claude plugin marketplace add https://github.com/intuito-studio/principles-research.git
+```
 
 ## Use
 
